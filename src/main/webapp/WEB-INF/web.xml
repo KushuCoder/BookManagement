@@ -4,7 +4,7 @@
 <web-app>
   <servlet>
     <servlet-name>BookServlet</servlet-name>
-    <servlet-class>com.book.Book</servlet-class>
+    <servlet-class>com.servlet.BookServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>BookServlet</servlet-name>
@@ -12,7 +12,7 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>BillServlet</servlet-name>
-    <servlet-class>com.book.Bill</servlet-class>
+    <servlet-class>com.servlet.BillServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>BillServlet</servlet-name>
@@ -20,7 +20,7 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>CustomerServlet</servlet-name>
-    <servlet-class>com.book.Customer</servlet-class>
+    <servlet-class>com.servlet.CustomerServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>CustomerServlet</servlet-name>
